@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Nadah Store">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ECE4AC"/>
+      <stop offset=".45" stop-color="#CFBE7D"/>
+      <stop offset="1" stop-color="#A08051"/>
+    </linearGradient>
+  </defs>
+  <!-- couronne -->
+  <path fill="url(#g)" d="M36 31 L33 15 L42 23 L50 9 L58 23 L67 15 L64 31 Z"/>
+  <circle cx="33" cy="13" r="2.4" fill="url(#g)"/>
+  <circle cx="50" cy="7" r="2.6" fill="url(#g)"/>
+  <circle cx="67" cy="13" r="2.4" fill="url(#g)"/>
+  <!-- N géométrique -->
+  <path fill="url(#g)" d="M12 92 L38 40 L54 40 L62 66 L76 40 L92 40 L66 92 L52 92 L44 66 L28 92 Z"/>
+</svg>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boutique — Nadah Store Fès</title>
+  <meta name="description" content="Crampons, mini foot, tenues de foot, sneakers et vêtements. Commandez sur WhatsApp, livraison gratuite partout au Maroc.">
+  <meta name="theme-color" content="#212a35">
+  <link rel="icon" href="images/brand/logo-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@400;600;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="shop">
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html" data-i18n="nav.home"></a><span aria-hidden="true">/</span><span data-i18n="nav.shop"></span></nav>
+        <p class="eyebrow" data-i18n="shop.eyebrow"></p>
+        <h1 class="display h1" data-i18n="shop.title"></h1>
+        <p class="lead" data-i18n="shop.lead"></p>
+      </div>
+    </section>
+
+    <div class="filters">
+      <div class="wrap filters-row">
+        <div class="chips" id="cat-chips" role="group" aria-label="Catégories"></div>
+        <div class="filter-controls">
+          <label class="field"><span class="sr-only" data-i18n="filter.size"></span><select id="f-size"></select></label>
+          <label class="field">
+            <span class="sr-only" data-i18n="filter.search"></span>
+            <span class="search-ico" data-icon="search"></span>
+            <input id="f-search" type="search" autocomplete="off" data-i18n-attr="placeholder:search.ph">
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <section class="wrap" style="padding-bottom:clamp(64px,9vw,120px)">
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+      <div class="product-grid" id="shop-grid"></div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/pages.js"></script>
+</body>
+</html>
